@@ -11,4 +11,4 @@ WORKDIR /app
 COPY ./app /app
 
 RUN adduser -D useraj
-USER useraj
+USER useraj:1000:1000
